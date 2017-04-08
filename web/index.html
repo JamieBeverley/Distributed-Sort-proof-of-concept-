@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html class="container">
+	<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	</head>
+
+   <body>
+      <h1 class="jumbotron ">Distributive Computing Test Page</h1>
+      
+     <div class="container bg-info">
+     <div id="content" class=" bg-info"> </div>
+     	<h3> About: </h3>
+     	<p> This page is for testing a proof of concept grid computing applicaiton. Pressing 'Distribute Sort' will prompt the webserver to equally distribute portions of a randomly generated list of numbers to all collected clients. The server waits for a response from each node and merges the result into a sorted list.</p>
+      
+  	</div>
+      <script src="/bower_components/autobahn/autobahn.min.js"> </script>
+      <script src="Client.js"> </script>
+   </body>
+</html>

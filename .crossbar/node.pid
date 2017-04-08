@@ -1,0 +1,19 @@
+{
+    "pid": 26974, 
+    "options": {
+        "reactor": null, 
+        "loglevel": "info", 
+        "logtofile": false, 
+        "cbdir": "/Users/JamieBeverley/Desktop/Individual Study/DistributedComputing/Final/DistributiveComputing/.crossbar", 
+        "logformat": "standard", 
+        "command": "start", 
+        "logdir": null, 
+        "config": "config.json", 
+        "colour": "auto", 
+        "personality": "community"
+    }, 
+    "argv": [
+        "/Library/Frameworks/Python.framework/Versions/2.7/bin/crossbar", 
+        "start"
+    ]
+}
