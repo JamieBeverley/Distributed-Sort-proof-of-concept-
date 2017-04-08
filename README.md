@@ -1,3 +1,4 @@
-# hello
+# Distributed Computing (proof of concept)
 
-All Node.js application code is in `hello/node/hello.js`. The backend is called from JavaScript, which is in `hello/web/index.html`.
+Uses Crossbar.io and Autobahn to distribute a very large sorting task amongst any number of connected clients.
+
